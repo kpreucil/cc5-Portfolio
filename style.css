@@ -1,0 +1,162 @@
+
+/* Start Header Styles*/
+.navbar-custom {
+    background-color: #928884;
+    position: fixed;
+}
+.navbar-nav {
+    float: right;
+    color: #e4e0d9;
+    padding: 5px;
+}
+.mysite-img{
+    width: 100px;
+}
+
+.background-image {
+    background-image: url(assets/images/header/AdobeStock_65366439_WM.jpeg);
+    min-height: 100vh; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo{
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header-sub{
+    color: #928884;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+/*    text-align: center;*/
+    margin: 0 auto;
+    outline: 0;
+    padding: 0;
+    padding-top: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+/*End Header Styles*/
+
+/* START General Styles*/
+
+/* Activate Roboto Condensed */
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul{
+    list-style-position: inside;
+}
+p {
+    font-size: 16px;
+}
+/*Colors*/
+.brown-text{
+    color: #928884;
+}
+.beige-text{
+    color: #e4e0d9;
+}
+.taupe-text{
+    color: #cec2b4;
+}
+.brown-block{
+    background-color: #928884;
+}
+.beige-block{
+    background-color: #e4e0d9;
+}
+.taupe-block{
+    background-color: #cec2b4;
+}
+
+/*Alignment*/
+.center-things{
+    text-align: center;
+}
+.align-left{
+    text-align: left;
+}
+
+/*Font Styles*/
+.itl{
+    font-style: italic;
+}
+.black{
+    font-weight: 800
+}
+.thin{
+    font-weight: 200;
+}
+.subhead{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*Image Sizes*/
+.img-fill{
+    width: 100%;
+    padding: 0;
+}
+
+/*Padding*/
+.pad-10{
+    padding: 10px;
+}
+.pad-20{
+    padding: 20px;
+}
+.pad-top-15{
+    padding-top: 15px;
+}
+.pad-bottom-15{
+    padding-bottom: 15px;
+}
+.pad-top-5{
+    padding-top: 5vw;
+}
+.pad-bottom-5{
+    padding-bottom: 5vw;
+}
+/* End General Styles*/
+
+/*
+.bullets{
+    text-align: left;
+    margin: 0 auto;
+}
+*/
+
+.center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.section {
+    margin-bottom: -140px;
+    background: #fff;
+    overflow: hidden;
+}
+.full-width{
+    padding-top: 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+.lc-services{
+
+    padding-top: 13vw;
+    padding-bottom: 13vw;
+    position: relative;
+}
