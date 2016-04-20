@@ -3,14 +3,23 @@
 .navbar-custom {
     background-color: #928884;
     position: fixed;
+    float: right;
+}
+.navbar .nav > li > a {
+    line-height: 19px;
+    padding: 17px 10px 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color:  #e4e0d9;
 }
 .navbar-nav {
     float: right;
-    color: #e4e0d9;
-    padding: 5px;
+  
 }
 .mysite-img{
     width: 100px;
+    text-align: center;
 }
 
 .background-image {
